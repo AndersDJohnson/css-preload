@@ -3,7 +3,9 @@ css-preload
 
 Prevent FOUC for CSS - e.g. for CSS3 transitions.
 
-Inspired by http://css-tricks.com/transitions-only-after-page-load/.
+## Features
+* CSS transitions
+  * All CSS transitions overridden to `none` until window `load` event. Inspired by [CSS-Tricks](http://css-tricks.com/transitions-only-after-page-load/).
 
 ## Usage
 
