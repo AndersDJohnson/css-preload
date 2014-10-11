@@ -18,7 +18,7 @@
   var cssPreload = {};
 
   cssPreload.onLoaded = function() {
-    $(document.body).removeClass("css-preload");
+    $([document.documentElement, document.body]).removeClass("css-preload");
   };
 
   $(window).load(cssPreload.onLoaded);
