@@ -1,4 +1,4 @@
-.css-preload * {
+.css-preload *:not(.no-css-preload) {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
